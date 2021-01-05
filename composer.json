@@ -1,0 +1,18 @@
+{
+    "name": "chigozieorunta/ladipo",
+    "description": "LadipoMarket.com.ng Theme",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chigozieorunta\\Ladipo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chigozie Orunta",
+            "email": "chigozieorunta@yahoo.com"
+        }
+    ],
+    "require": {}
+}
