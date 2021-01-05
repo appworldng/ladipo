@@ -9,6 +9,10 @@
     "wordpress",
     "theme"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appworldng/ladipo.git"
+  },
   "scripts": {
     "dev": "composer install && npm install",
     "start": "docker-compose up -d && open http://localhost:1111",
