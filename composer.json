@@ -2,10 +2,10 @@
     "name": "chigozieorunta/ladipo",
     "description": "LadipoMarket.com.ng Theme",
     "type": "project",
-    "license": "MIT",
+    "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
-            "Chigozieorunta\\Ladipo\\": "src/"
+            "Ladipo\\": "src/"
         }
     },
     "authors": [
@@ -14,5 +14,13 @@
             "email": "chigozieorunta@yahoo.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
 }
