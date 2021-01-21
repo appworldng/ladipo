@@ -1,8 +1,14 @@
 {
   "name": "ladipo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "LadipoMarket.com.ng Theme",
+  "author": "Chigozie Orunta",
+  "license": "ISC",
+  "keywords": [
+    "ladipo",
+    "wordpress",
+    "theme"
+  ],
   "scripts": {
     "dev": "composer install && npm install",
     "start": "docker-compose up -d && open http://localhost:1111",
@@ -17,9 +23,6 @@
     "lint:js": "npx eslint assets/**/*.js",
     "lint:js:fix": "npx eslint --fix assets/**/*.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@wordpress/eslint-plugin": "^14.1.0",
     "gulp": "^4.0.2",
